@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big Shoulders Display&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin-bottom: 50px;
+}
+
+.container {
+    max-width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+}
+
+.heading {
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    padding: 30px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+}
+
+.mainText {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 30px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.iconPic {
+    padding: 25px;
+}
+
+.learnMore {
+    width: 150px;
+    font-weight: 700;
+    border-radius: 25px;
+    border: 2px solid hsl(0, 0%, 100%);
+    padding: 10px;
+    margin-left: 25%;
+    transform: translate(-25%, -25%);
+    margin-bottom: 20px;
+}
+
+#sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#sedanButton {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(31, 77%, 52%);
+}
+
+#sedanButton:active {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 100%);
+}
+
+#suvs {
+    background-color: hsl(184, 100%, 22%);
+
+}
+
+#suvButton {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(184, 100%, 22%);
+}
+
+#suvButton:active {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 100%);
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#luxuryButton {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(179, 100%, 13%);
+}
+
+#luxuryButton:active {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width:576px) {
+    body {
+        width: 700px;
+
+    }
+
+    .container {
+        width: 375px;
+        max-height: 375px;
+    }
+
+    #sedans {
+        background-color: hsl(31, 77%, 52%);
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0px;
+    }
+
+    #luxury {
+        background-color: hsl(179, 100%, 13%);
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+}
